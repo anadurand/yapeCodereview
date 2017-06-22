@@ -1,0 +1,300 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*utils*/
+.rojo{
+  color: #f64552;
+  font-weight: bold;
+}
+.boton-amarillo{
+  background-color: #fbd43b;
+}
+.gris-dark{
+  color: #212121;
+}
+.gris-letra{
+  color: #8f8f8f;
+}
+.turquesa{
+  color: #00c3a3;
+}
+.morado{
+  color: #49233b;
+}
+.morado-light{
+  background-color: #451e36;
+}
+.morado-dark{
+  background-color: #38052a;
+}
+.btn:hover{
+  background-color: #fbd43b;
+}
+.negrita{
+  color: black;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.error{
+
+}
+
+/*pagina welcome*/
+.initial-parent{
+  min-height: 565px;
+  padding: 60px 29px 0 29px;
+}
+.carousel.carousel-slider{
+  height: 430px!important;
+}
+.carousel-item{
+  padding: 0 21px;
+}
+.carousel-item h2{
+  font-size: 2rem;
+  color: #212121;
+}
+.carousel-item p{
+  font-size: 1.2rem!important;
+  line-height: 1.6;
+  color: #8f8f8f;
+}
+.div-img img{
+  width: 220px;
+  height: 220px;
+}
+.carousel .indicators .indicator-item.active{
+  background-color: #f64552;
+}
+.carousel .indicators .indicator-item {
+  background-color: #f8f8f8;
+}
+.register{
+  width: 100%;
+  background-color: #fbd43b;
+  box-shadow: none;
+}
+/*pagina register number*/
+.header-icon{
+  height: 80px;
+}
+.title-h4{
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: bold;
+}
+.title-p{
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #8f8f8f;
+}
+.div-input{
+  position: relative;
+  margin-top: 60px;
+}
+.div-input .icono-phone{
+  height: 30px;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+.div-input .icono-code{
+  height: 30px;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+input[type=tel], input[type=text],input[type=email],input[type=password]{
+  font-size: 1.4rem;
+  /*box-shadow: 0 1px 0 0 #9e9e9e*/
+}
+input[type=tel]:focus:not([readonly]), input[type=text]:focus:not([readonly]),input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]){
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  box-shadow: 0 1px 0 0 #9e9e9e;
+}
+[type="checkbox"].filled-in:not(:checked)+label:after{
+  border: 2px solid #E9EAEB;
+}
+.div-terms{
+  margin-bottom: 60px;
+}
+.div-terms label{
+  font-weight: bold;
+}
+#next{
+  color: white!important;
+  box-shadow: none;
+}
+/*registra codigo*/
+#code{
+  font-size: 1.8rem;
+}
+.div-message img{
+  position: relative;
+  top: 3px;
+  height: 20px;
+}
+.div-crear-user{
+  margin-top: 35px;
+}
+.div-crear-user input{
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+}
+.div-crear-user img{
+  height: 25px;
+  position: absolute;
+  left: 10px;
+}
+.icono-name{
+  top: 10px;
+}
+.icono-password{
+  bottom: 40px;
+}
+.icono-mail{
+  top: 85px;
+}
+.advice{
+  padding: 0 10px;
+}
+/*pantalla de ingreso correcto de datos*/
+.div-success{
+  height: 100vh;
+}
+.ok-conte{
+  width: 100%;
+}
+.ok-conte h5{
+  line-height: 1.5;
+  font-weight: 500;
+}
+.img-ok{
+  height: 100px;
+}
+/*registro de tarjeta*/
+
+.icono-question{
+  position: absolute;
+  height: 25px;
+  top: 15px;
+  right: 15px;
+}
+.icono-card{
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+.icono-escaner{
+  height: 20px;
+  position: relative;
+  top: 3px;
+  right: 2px;
+}
+.div-date{
+  overflow: auto;
+  margin-bottom: 35px;
+}
+.div-date input{
+  font-size: 1.2rem;
+  padding: 5px 0;
+  width: 40px;
+  height: 2rem;
+  padding: 0 5px;
+}
+.div-date .gris-letra{
+  position: relative;
+  top: 7px;
+}
+.registerCard .icono-password{
+  height: 25px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.registerCard input{
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.icono-engine{
+  height: 25px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.registerCard #next{
+  margin-bottom: 5px;
+}
+/*pagina final*/
+.final{
+  height: 100vh;
+}
+.div-arriba{
+  height: 230px;
+  padding-top: 40px;
+}
+.icono-happy-face{
+  height: 85px;
+}
+.div-eye{
+  position: relative;
+}
+.icono-eye{
+  height: 15px;
+  position: relative;
+  top: 3px;
+  padding-right: 5px;
+}
+.final-abajo-header{
+  padding: 15px 10px 0 10px;
+  border-bottom: 1px solid #3E102F;
+  display: flex;
+  justify-content: space-between;
+}
+.final-abajo-header h5{
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+.final-abajo-header img{
+  position: relative;
+  bottom: 3px;
+  height: 20px;
+}
+.final-abajo-body{
+  padding: 10px;
+}
+.final-abajo-body .col{
+  padding: 0;
+}
+.final-abajo-body .col.s8{
+  padding: 30px 0 0 15px;
+}
+
+.final-abajo-body img{
+  height: 105px;
+}
+.final-abajo-body h5, .final-abajo-body p{
+  font-size: 1rem;
+  margin: 0;
+  color: #B4A1AE;
+}
+.final-abajo-footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.final-abajo-footer img{
+  height: 55px;
+}
+.final-abajo-footer p{
+  margin: 5px 0;
+  text-transform: uppercase;
+}
