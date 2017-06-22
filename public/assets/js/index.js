@@ -39,10 +39,10 @@ const updated = function(){
   render(root);
 }
 const state = {
-  pagina: null,
+  pagina: 5,
   termsChecked: false,
   phoneChecked: false,
-  phoneNumber: null,
+  phoneNumber: "123456543",
 }
 
 
@@ -50,6 +50,5 @@ $( _ => {
 
   const root = $(".root");
   render(root);
-  $('.carousel.carousel-slider').carousel({fullWidth: true});
 
 });
